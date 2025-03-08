@@ -1,0 +1,121 @@
+Using real MNIST data from mnist.npz
+Epoch 1, Loss: 1.9922
+Epoch 2, Loss: 1.4188
+Epoch 3, Loss: 1.2669
+Epoch 4, Loss: 1.1849
+Epoch 5, Loss: 1.1263
+Epoch 6, Loss: 1.0834
+Epoch 7, Loss: 1.0420
+Epoch 8, Loss: 1.0146
+Epoch 9, Loss: 0.9924
+Epoch 10, Loss: 0.9740
+Epoch 11, Loss: 0.9596
+Epoch 12, Loss: 0.9438
+Epoch 13, Loss: 0.9318
+Epoch 14, Loss: 0.9196
+Epoch 15, Loss: 0.9117
+Epoch 16, Loss: 0.9063
+Epoch 17, Loss: 0.8991
+Epoch 18, Loss: 0.8954
+Epoch 19, Loss: 0.8881
+Epoch 20, Loss: 0.8830
+Epoch 21, Loss: 0.8785
+Epoch 22, Loss: 0.8716
+Epoch 23, Loss: 0.8652
+Epoch 24, Loss: 0.8627
+Epoch 25, Loss: 0.8548
+Epoch 26, Loss: 0.8496
+Epoch 27, Loss: 0.8448
+Epoch 28, Loss: 0.8356
+Epoch 29, Loss: 0.8374
+Epoch 30, Loss: 0.8320
+Epoch 31, Loss: 0.8288
+Epoch 32, Loss: 0.8288
+Epoch 33, Loss: 0.8308
+Epoch 34, Loss: 0.8242
+Epoch 35, Loss: 0.8253
+Epoch 36, Loss: 0.8248
+Epoch 37, Loss: 0.8228
+Epoch 38, Loss: 0.8263
+Epoch 39, Loss: 0.8231
+Epoch 40, Loss: 0.8230
+Epoch 41, Loss: 0.8251
+Epoch 42, Loss: 0.8228
+Epoch 43, Loss: 0.8276
+Epoch 44, Loss: 0.8266
+Epoch 45, Loss: 0.8295
+Epoch 46, Loss: 0.8263
+Epoch 47, Loss: 0.8214
+Epoch 48, Loss: 0.8230
+Epoch 49, Loss: 0.8290
+Epoch 50, Loss: 0.8243
+Epoch 51, Loss: 0.8236
+Epoch 52, Loss: 0.8207
+Epoch 53, Loss: 0.8181
+Epoch 54, Loss: 0.8156
+Epoch 55, Loss: 0.8114
+Epoch 56, Loss: 0.8131
+Epoch 57, Loss: 0.8108
+Epoch 58, Loss: 0.8104
+Epoch 59, Loss: 0.8093
+Epoch 60, Loss: 0.8043
+Epoch 61, Loss: 0.8059
+Epoch 62, Loss: 0.8045
+Epoch 63, Loss: 0.8007
+Epoch 64, Loss: 0.8045
+Epoch 65, Loss: 0.7969
+Epoch 66, Loss: 0.8034
+Epoch 67, Loss: 0.7999
+Epoch 68, Loss: 0.7966
+Epoch 69, Loss: 0.7974
+Epoch 70, Loss: 0.7910
+Epoch 71, Loss: 0.7913
+Epoch 72, Loss: 0.7893
+Epoch 73, Loss: 0.7900
+Epoch 74, Loss: 0.7882
+Epoch 75, Loss: 0.7838
+Epoch 76, Loss: 0.7826
+Epoch 77, Loss: 0.7821
+Epoch 78, Loss: 0.7803
+Epoch 79, Loss: 0.7810
+Epoch 80, Loss: 0.7772
+Epoch 81, Loss: 0.7776
+Epoch 82, Loss: 0.7746
+Epoch 83, Loss: 0.7752
+Epoch 84, Loss: 0.7705
+Epoch 85, Loss: 0.7707
+Epoch 86, Loss: 0.7699
+Epoch 87, Loss: 0.7706
+Epoch 88, Loss: 0.7705
+Epoch 89, Loss: 0.7707
+Epoch 90, Loss: 0.7676
+Epoch 91, Loss: 0.7648
+Epoch 92, Loss: 0.7638
+Epoch 93, Loss: 0.7620
+Epoch 94, Loss: 0.7626
+Epoch 95, Loss: 0.7603
+Epoch 96, Loss: 0.7588
+Epoch 97, Loss: 0.7583
+Epoch 98, Loss: 0.7571
+Epoch 99, Loss: 0.7548
+Epoch 100, Loss: 0.7524
+Training time: 1643.87 seconds
+Test Accuracy: 70.91%
+
+Evaluating Fault Injection Experiments:
+Fault Type: dropout, Severity: 0.05, Test Accuracy: 41.02%
+Fault Type: dropout, Severity: 0.10, Test Accuracy: 30.45%
+Fault Type: dropout, Severity: 0.20, Test Accuracy: 20.57%
+Fault Type: dropout, Severity: 0.30, Test Accuracy: 16.58%
+Fault Type: perturbation, Severity: 0.05, Test Accuracy: 63.90%
+Fault Type: perturbation, Severity: 0.10, Test Accuracy: 46.11%
+Fault Type: perturbation, Severity: 0.20, Test Accuracy: 24.54%
+Fault Type: perturbation, Severity: 0.30, Test Accuracy: 17.19%
+Fault Type: bit_flip, Severity: 0.05, Test Accuracy: 19.54%
+Fault Type: bit_flip, Severity: 0.10, Test Accuracy: 13.60%
+Fault Type: bit_flip, Severity: 0.20, Test Accuracy: 10.76%
+Fault Type: bit_flip, Severity: 0.30, Test Accuracy: 9.94%
+Fault Type: bias_shift, Severity: 0.05, Test Accuracy: 69.86%
+Fault Type: bias_shift, Severity: 0.10, Test Accuracy: 68.79%
+Fault Type: bias_shift, Severity: 0.20, Test Accuracy: 66.07%
+Fault Type: bias_shift, Severity: 0.30, Test Accuracy: 62.62%
